@@ -4,7 +4,7 @@ import Colors from '../Components/Color';
 const physicians = [
     {
         name: "Madhavilatha Vuppali, MD",
-        image: require('../assets/1DrVuppali.jpg.webp'),
+        image: require('../assets/vupalli.jpg'),
         fellowship: "Louisiana State University - Shreveport, LA",
         residency: "St. Joseph Mercy Medical Center - Pontiac, MI",
         certifications: "Nephrology, Internal Medicine",
@@ -19,7 +19,7 @@ const physicians = [
     },
     {
         name: "Sushmitha Gandra, MD",
-        image: require('../assets/Sushmitha_Gandra.webp'),
+        image: require('../assets/Gandra.jpg'),
         fellowship: "University of Cincinnati - Cincinnati, OH",
         residency: "Lankenau Medical Center - Lankenau, PA",
         certifications: "Nephrology, Internal Medicine",
@@ -34,7 +34,7 @@ const physicians = [
     },
     {
         name: "Dr. Amol Patel, D.O",
-        image: require('../assets/dr-patel.jpg.webp'),
+        image: require('../assets/Patel.jpg'),
         fellowship: "University of Washington, Seattle, WA - Nephrology",
         residency: "Houston Methodist Hospital, Houston, TX",
         certifications: "Nephrology, Internal Medicine",
@@ -70,7 +70,7 @@ const PhysicianPage = () => {
                                 <img
                                     src={physician.image}
                                     alt={physician.name}
-                                    className="w-full md:w-80 h-auto rounded-lg mb-4 object-cover"
+                                    className="w-full md:w-100 h-90 rounded-lg mb-4 object-cover"
                                 />
                                 <h2 className="text-xl font-bold  text-center" style={{ color: Colors.headingBlue }}>{physician.name}</h2>
                             </div>

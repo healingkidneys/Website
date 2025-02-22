@@ -329,13 +329,20 @@ const ServicesPage = () => {
 
                     {/* Insurances Accepted */}
                     <div>
-                        <h3 className="text-lg md:text-xl lg:text-2xl font-semibold  mb-4" style={{ color: Colors.headingBlue }}>Insurances Accepted</h3>
+                        <h3 className="text-lg md:text-xl lg:text-2xl font-semibold  mb-1" style={{ color: Colors.headingBlue }}>Insurances Accepted</h3>
+                        <p className="mb-4" style={{ color: Colors.paragraphGray }}>(check with office for the updated list)</p>
                         <ul className="list-disc pl-5 " style={{ color: Colors.paragraphGray }}>
                             <li>Medicare</li>
                             <li>Aetna</li>
                             <li>BCBS of Texas</li>
                             <li>Cigna</li>
                             <li>United Healthcare</li>
+                            <li>Wellpoint</li>
+                            <li>Wellmed</li>
+                            <li>Memorial Hermann</li>
+                            <li>Medicare advantage plans</li>
+                            <li>TRS</li>
+                            <li>VA</li>
                         </ul>
                     </div>
                 </div>

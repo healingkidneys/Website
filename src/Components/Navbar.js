@@ -50,12 +50,6 @@ const CustomNavbar = () => {
             external: false,
             hoverColor: "hover:text-[#0f3f8a]",
         },
-        {
-            text: "Referrals",
-            href: "/",
-            external: false,
-            hoverColor: "hover:text-[#0f3f8a]",
-        },
     ];
 
     const mainLinks = [
@@ -94,10 +88,10 @@ const CustomNavbar = () => {
                             {/* Top Division for Logo */}
                             <div className="flex justify-center mt-2">
                                 <Image
-                                    src={require('../assets/HKI-2019-Logo.png.webp')}
+                                    src={require('../assets/HK.png')}
                                     alt="Logo"
-                                    width="160"
-                                    height="60"
+                                    width="200"
+                                    height="80"
                                 />
                             </div>
                             {/* Second Division for Telephone and Email */}
@@ -165,12 +159,6 @@ const CustomNavbar = () => {
                             {/* Additional links for larger devices */}
                             <div className="hidden md:flex space-x-2">
                                 <Link
-                                    to="/"
-                                    className="text-white hover:text-[#0f3f8a] hover:underline no-underline px-1 sm:px-0"
-                                >
-                                    Feedback
-                                </Link>
-                                <Link
                                     to="https://hkscheduling.vercel.app/"
                                     target="_blank"
                                     className="text-white hover:text-[#0f3f8a] hover:underline no-underline px-1 sm:px-0"
@@ -190,10 +178,10 @@ const CustomNavbar = () => {
                 <Container className="flex !justify-center md:!justify-between !important">
                     <Navbar.Brand as={Link} to="/" className="justify-start hidden md:flex">
                         <Image
-                            src={require('../assets/HKI-2019-Logo.png.webp')}
+                            src={require('../assets/HK.png')}
                             alt="Logo"
-                            width="160"
-                            height="60"
+                            width="200"
+                            height="80"
                         />
                     </Navbar.Brand>
                     <Navbar.Toggle

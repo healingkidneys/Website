@@ -43,7 +43,7 @@ const ServiceSectionpage = () => {
 
             <div className="max-w-5xl mx-auto mb-5">
                 <h4 className="text-lg text-center" style={{ color: Colors.paragraphGray }}>
-                    North Houston Woodlands And Conroe's Trusted Comprehensive Kidney Care Provider Whenever You Need
+                    North Houston, Woodlands, and Conroe's Trusted Comprehensive Kidney Care Provider Whenever You Need
                 </h4>
             </div>
 

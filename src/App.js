@@ -32,39 +32,39 @@ import 'slick-carousel/slick/slick-theme.css';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="flex flex-col min-h-screen">
         <Navbar />
         <CustomBreadcrumb /> {/* Breadcrumb component */}
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/physicians" element={<PhysiciansPage />} />
-          <Route path="/services" element={<ServicesPage />} />
-          <Route path="/education" element={<EducationPage />} />
-          <Route path="/services/dialysis" element={<DialysisPage />} />
-          <Route path="/services/hypertension" element={<HypertensionPage />} />
-          <Route path="/services/kidney-disease" element={<KidneyDiseasePage />} />
-          <Route path="/services/kidney-doctor" element={<KidneyDoctorPage />} />
-          <Route path="/services/kidney-stones" element={<KidneyStonesPage />} />
-          <Route path="/patient-registration" element={<PatientRegistrationPage />} />
-          <Route path="/education/blog" element={<BlogPage />} />
-          <Route path="/locations-directions" element={<DirectionPage />} />
-          <Route path="/contact-us" element={<ContactUsPage />} />
-          <Route path="/signs-symptoms-kidney-stones-want-to-see-a-doctor" element={<SignSymptomPage />} />
-          <Route path="/how-nephrologists-diagnose-kidney-disorders" element={<HowNephrologistsPage />} />
-          <Route path="/understanding-hypertension-causes-symptoms-and-risk-factors" element={<UnderstandingHypertensionPage />} />
-          <Route path="/kidney-stones-causes-for-concern" element={<KidneyStonesCausesPage />} />
-          <Route path="/welcome-to-our-blog" element={<WelcomeBlogPage />} />
-          <Route path="/blog/kidney-stones" element={<InsideKidneyStonePage />} />
-          <Route path="/blog/nephrologists" element={<InsideNephrologistsPage />} />
-          <Route path="/sitemap" element={<SiteMapPage />} />
-
-
-          {/* Add more routes as needed */}
-        </Routes>
+        <div className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/physicians" element={<PhysiciansPage />} />
+            <Route path="/services" element={<ServicesPage />} />
+            <Route path="/education" element={<EducationPage />} />
+            <Route path="/services/dialysis" element={<DialysisPage />} />
+            <Route path="/services/hypertension" element={<HypertensionPage />} />
+            <Route path="/services/kidney-disease" element={<KidneyDiseasePage />} />
+            <Route path="/services/kidney-doctor" element={<KidneyDoctorPage />} />
+            <Route path="/services/kidney-stones" element={<KidneyStonesPage />} />
+            <Route path="/patient-registration" element={<PatientRegistrationPage />} />
+            <Route path="/education/blog" element={<BlogPage />} />
+            <Route path="/locations-directions" element={<DirectionPage />} />
+            <Route path="/contact-us" element={<ContactUsPage />} />
+            <Route path="/signs-symptoms-kidney-stones-want-to-see-a-doctor" element={<SignSymptomPage />} />
+            <Route path="/how-nephrologists-diagnose-kidney-disorders" element={<HowNephrologistsPage />} />
+            <Route path="/understanding-hypertension-causes-symptoms-and-risk-factors" element={<UnderstandingHypertensionPage />} />
+            <Route path="/kidney-stones-causes-for-concern" element={<KidneyStonesCausesPage />} />
+            <Route path="/welcome-to-our-blog" element={<WelcomeBlogPage />} />
+            <Route path="/blog/kidney-stones" element={<InsideKidneyStonePage />} />
+            <Route path="/blog/nephrologists" element={<InsideNephrologistsPage />} />
+            <Route path="/sitemap" element={<SiteMapPage />} />
+          </Routes>
+        </div>
         <Footer />
       </div>
     </Router>
   );
 }
+
 
 export default App;
