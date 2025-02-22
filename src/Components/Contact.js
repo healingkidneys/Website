@@ -53,7 +53,7 @@ const ContactUsPage = () => {
         }
 
         try {
-            const response = await fetch('healingkidneys.pythonanywhere.com/service/email/', {
+            const response = await fetch('https://healingkidneys.pythonanywhere.com/service/email/', {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'
