@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Colors from '../Components/Color';
-import Image1 from '../assets/hki-group-providers2.jpg.webp';
+import Image1 from '../assets/main.jpg';
 
 const Carsouelpage = () => {
     // State for individual hover states for each link
