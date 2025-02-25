@@ -86,7 +86,7 @@ const CustomNavbar = () => {
                         {/* Mobile Specific Section */}
                         <div className="block md:hidden bg-white">
                             {/* Top Division for Logo */}
-                            <div className="flex justify-center mt-2">
+                            <div className="flex justify-center pt-2">
                                 <Image
                                     src={require('../assets/HK.png')}
                                     alt="Logo"
@@ -104,7 +104,7 @@ const CustomNavbar = () => {
                                 </a>
                             </div>
                             {/* Third Division for Links */}
-                            <div className="flex justify-center mt-2 mb-3 space-x-2">
+                            <div className="flex justify-center mt-2 pb-3 space-x-2">
                                 {rightSideLinks.map((link, index) => (
                                     <Link
                                         key={index}
