@@ -174,7 +174,7 @@ const CustomNavbar = () => {
             </div>
 
             {/* Navbar Section */}
-            <Navbar expand="lg" className="sticky-top bg-white shadow" expanded={expanded}>
+            <Navbar expand="xxl" className="sticky-top bg-white shadow" expanded={expanded}>
                 <Container className="flex !justify-center md:!justify-between !important">
                     <Navbar.Brand as={Link} to="/" className="justify-start hidden md:flex">
                         <Image
@@ -187,7 +187,7 @@ const CustomNavbar = () => {
                     <Navbar.Toggle
                         aria-controls="basic-navbar-nav"
                         onClick={() => setExpanded(!expanded)}
-                        className="block lg:hidden"     // mx-auto - for smaller devices
+                        className="block"     // mx-auto - for smaller devices
                     />
                     <Navbar.Collapse id="basic-navbar-nav"
                         className="justify-center md:justify-end lg:justify-end">
