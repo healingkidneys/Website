@@ -88,7 +88,7 @@ const CustomNavbar = () => {
                             {/* Top Division for Logo */}
                             <div className="flex justify-center pt-2">
                                 <Image
-                                    src={require('../assets/HK.png')}
+                                    src={require('../assets/new_logo.png')}
                                     alt="Logo"
                                     width="200"
                                     height="80"
@@ -178,7 +178,7 @@ const CustomNavbar = () => {
                 <Container className="flex !justify-center md:!justify-between !important">
                     <Navbar.Brand as={Link} to="/" className="justify-start hidden md:flex">
                         <Image
-                            src={require('../assets/HK.png')}
+                            src={require('../assets/new_logo.png')}
                             alt="Logo"
                             width="200"
                             height="80"
