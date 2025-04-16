@@ -90,8 +90,8 @@ const CustomNavbar = () => {
                                 <Image
                                     src={require('../assets/new_logo.png')}
                                     alt="Logo"
-                                    width="200"
-                                    height="80"
+                                    width="250"
+                                    height="100"
                                 />
                             </div>
                             {/* Second Division for Telephone and Email */}
@@ -180,8 +180,8 @@ const CustomNavbar = () => {
                         <Image
                             src={require('../assets/new_logo.png')}
                             alt="Logo"
-                            width="200"
-                            height="80"
+                            width="250"
+                            height="100"
                         />
                     </Navbar.Brand>
                     <Navbar.Toggle
